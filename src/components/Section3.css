@@ -109,3 +109,52 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 1050px){
+    .sec3-tittle{
+        font-size: 3rem;
+        display: flex;
+        position: absolute;
+        top: 30%;
+        left: 23%;
+    }
+
+    .sec3-izq{
+        width: 100%;
+    }
+
+    .sec3-paragraph{
+        margin: 4rem auto;
+        line-height: 2rem;
+    }
+    
+    .sec3-der{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+
+
+    .sec3-tittle{
+        font-size: 3rem;
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 23%;
+    }
+
+    .sec3-izq{
+        width: 100%;
+    }
+
+    .sec3-paragraph{
+        margin: 4rem auto;
+        line-height: 1.2rem;
+    }
+
+    .sec3-der{
+        display: none;
+    }
+}

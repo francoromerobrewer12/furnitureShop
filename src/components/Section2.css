@@ -172,10 +172,10 @@
     }
     
     .image-section-text-wrapp{
-        height: 40%;
-        width: 45%;
+        height: 50%;
+        width: 90%;
         position: absolute;
-        left: 15%;
+        left: 5%;
         z-index: 4;
         background-color: white;
         display: flex;
@@ -185,28 +185,9 @@
     }
     
     .sub-image-wrap{
-        width: 30%;
-        height: 70vh;
-        z-index: 2;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 15%;
-        overflow: hidden;
-    }
-    .sub-img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+       display: none;
     }
     
-    .img-mask{
-        width: 100%;
-        height: 100%;
-        z-index: 20;
-        position: absolute;
-        background: transparent;
-    }
     
     .img-section-subtittle{
         margin-bottom: 1rem;
