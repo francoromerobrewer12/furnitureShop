@@ -158,3 +158,27 @@
         display: none;
     }
 }
+
+
+@media only screen and (max-width: 370px){
+
+
+    .sec3-tittle{
+        font-size: 2rem;
+        display: flex;
+        position: absolute;
+        top: 10%;
+        left: 23%;
+    }
+
+    .sec3-izq{
+        width: 100%;
+    }
+
+    .sec3-paragraph{
+        margin: 2rem auto;
+        line-height: 1.2rem;
+    }
+
+    
+}
